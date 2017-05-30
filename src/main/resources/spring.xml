@@ -11,6 +11,4 @@
 
     <import resource="spring-cxf.xml" />
 
-    <import resource="spring-client.xml" />
-
 </beans>

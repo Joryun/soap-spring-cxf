@@ -17,7 +17,7 @@ public class Client {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("spring-client.xml");
         HelloService helloService = context.getBean("helloService", HelloService.class);
-        String result = helloService.say("world");
+        String result = helloService.say("CXF");
         System.out.println(result);
     }
 }
